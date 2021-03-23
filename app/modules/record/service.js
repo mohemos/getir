@@ -6,10 +6,12 @@ export const getRecord = async ({ startDate, endDate, minCount, maxCount }) => {
   const formattedEndDate = new Date(endDate);
 
   if (formattedStartDate.getTime() > formattedEndDate.getTime())
-    throw new ValidationError("Start date cannot be greater than end date");
+    throw new ValidationError(
+      "Kindly ensure start date(startDate) is not greater than end date(endDate)"
+    );
   if (minCount > maxCount)
     throw new ValidationError(
-      "Minimum count(minCount) cannot be greater than maximum count(maxCount)"
+      "Kindly ensure minimum count(minCount) is not greater than maximum count(maxCount)"
     );
 
   const pipeline = [
