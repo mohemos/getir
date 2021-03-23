@@ -19,3 +19,7 @@ To run test:
 Production API URL:
 
 #### `https://getirtask.herokuapp.com`
+
+Contact Email:
+
+#### `career.mosespeter@gmail.com`
