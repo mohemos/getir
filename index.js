@@ -1,15 +1,15 @@
 import express from "express";
-import db from "./app/utils/db";
+import startDB from "./app/utils/db";
 import routes from "./app/routes";
 import globalMiddlewares from "./app/routes/globalMiddlewares";
 
 const app = express();
+const PORT = process.env.PORT;
+
 globalMiddlewares(app);
 routes(app);
 
-const PORT = process.env.PORT;
-
-db()
+startDB()
   .then(() => console.log(`=====MongoDB connection established=====`))
   .catch((err) => console.log(err));
 

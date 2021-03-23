@@ -15,8 +15,4 @@ const connect = async () => {
   }
 };
 
-export function like(node) {
-  return { $regex: new RegExp(node, "i") };
-}
-
 export default connect;
