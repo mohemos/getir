@@ -15,3 +15,7 @@ To start the project in production mode, run either of the script below:
 To run test:
 
 #### `yarn test` or `npm run test`
+
+Production API URL:
+
+#### `https://getirtask.herokuapp.com`
