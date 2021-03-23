@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon -r esm -r dotenv/config index.js",
-    "prod": "node -r esm -r dotenv/config index.js",
+    "start": "node -r esm -r dotenv/config index.js",
     "kill": "kill $(lsof -t -i:3000)",
     "test": "jest"
   },
