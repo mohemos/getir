@@ -10,4 +10,8 @@ To start the project in development mode, run either of the script below:
 
 To start the project in production mode, run either of the script below:
 
-### `yarn start` or `npm start`
+# `yarn start` or `npm start`
+
+To run test:
+
+# `yarn test` or `npm run test`
