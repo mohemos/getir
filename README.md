@@ -2,7 +2,7 @@
 
 To install dependencies, navigate to the project directory and run either of these scripts:
 
-#### `yarn` or `npm install`
+###### `yarn` or `npm install`
 
 To start the project in development mode, run either of the script below:
 
